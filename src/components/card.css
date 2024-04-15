@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+  }
+
+.card{
+    width: 470px;
+    height: 503px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.logo{
+    width: 32px;
+    display: flex;
+    margin-left: 28px;
+}
+
+h1{
+    font-size: 2.6rem;
+    margin-left: 24px;
+    font-family: 'Poppins-bold';
+}
+
+.iconMinus{
+    display: flex;
+}
+
+.iconMinus p{
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-left: 32px;
+
+}
+
+.iconMinus img{
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        height: auto;
+        position: static;
+        transform: none;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .iconMinus p {
+        font-size: 0.5rem;
+    }
+}

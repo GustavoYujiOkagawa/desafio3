@@ -7,7 +7,7 @@
   }
 
 .card{
-    width: 470px;
+    width: 500px;
     height: 503px;
     background-color: white;
     position: absolute;
@@ -43,7 +43,7 @@ h1{
 
 .iconMinus img{
     cursor: pointer;
-    margin-left: 32px;
+    margin-left: 48px;
 }
 
 

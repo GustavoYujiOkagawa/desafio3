@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./accordion.css";
 import { ReactSVG } from 'react-svg'
 import Icone from '../assets/images/icon-plus.svg'

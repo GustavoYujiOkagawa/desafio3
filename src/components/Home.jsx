@@ -4,7 +4,7 @@ import Card from "./Card";
 
 function Home() {
   return (
-    <main>
+    <main className="main">
       <section className="container">
         <img src={backgroundSvg} alt="background" />
         <Card />
